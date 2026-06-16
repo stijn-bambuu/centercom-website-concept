@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "WebFetch(domain:centercom.nl)",
+      "Bash(python3 -m pip install --quiet pypdf)",
+      "WebFetch(domain:oceanoutdoor.com)",
+      "WebFetch(domain:www.jcdecaux.nl)",
+      "Bash(curl -s \"https://centercom.nl/\")",
+      "Read(//Users/stijnvisser/Claude Code/**)",
+      "Bash(curl -s \"https://centercom.nl/wp-content/themes/centercom/styles.css\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python3 -c \"s=open\\('css/styles.css'\\).read\\(\\);print\\('open',s.count\\('{'\\),'close',s.count\\('}'\\)\\)\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Read(//Users/stijnvisser/**)",
+      "Bash(ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -T git@github.com)",
+      "Bash(command -v brew)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Centercom website refresh — one-pager concept *)",
+      "Bash(git branch *)"
+    ]
+  }
+}
